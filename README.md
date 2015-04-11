@@ -25,7 +25,7 @@ Or you can run the corresponding installation file for your system.
 ### Cups
 Go to [http://localhost:631/](http://localhost:631/) and follow the instructions for activating the WebGUI. 
 
-After that you can follow the instructions the are on the original Linux Drivers.
+After that you can follow the Linux Driver instructions that are shipped with the device. [Or download them from here](http://www.xprinter.net/products_show.asp?lan=zh-en&skin=1&newsid=239753224).
 
 ## Notes
 I'm not great at C. I've just modified the script provided by [@klirichek](https://github.com/klirichek) and made it work on MacOSX. It probably won't work on Linux
