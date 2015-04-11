@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Installs xp-58 driver on Mac OS X
+
+sudo launchctl stop org.cups.cupsd
+cp rastertoxp58 /usr/libexec/cups/filter/
+mkdir -p /usr/share/cups/model/xprinter
+cp XP-58.ppd /usr/share/cups/model/xprinter/
+cd /usr/libexec/cups/filter
+chmod 755 rastertoxp58
+chown root:wheel rastertoxp58
+cd -
+sudo launchctl start org.cups.cupsd

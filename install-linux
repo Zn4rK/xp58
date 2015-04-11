@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# Installs xp-58 driver on Linux
+
+/etc/init.d/cups stop
+cp rastertoxp58 /usr/lib/cups/filter/
+mkdir -p /usr/share/cups/model/xprinter
+cp XP-58.ppd /usr/share/cups/model/xprinter/
+cd /usr/lib/cups/filter
+chmod 755 rastertoxp58
+chown root:root rastertoxp58
+cd -
+/etc/init.d/cups start
