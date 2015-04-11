@@ -2,7 +2,7 @@
 
 CUPS filter for thermal printer Xprinter XP58IIH. 
 
-First of I would like to give a big shoutout to [@klirichek](https://github.com/klirichek) for making the [filters for Zjaing](https://github.com/klirichek/zj-58). Since the hardware in both the machines are basically the same he did 99% of the work for me.
+First of I would like to give a big shoutout to [@klirichek](https://github.com/klirichek) for making the [filters for Zjiang](https://github.com/klirichek/zj-58). Since the hardware in both the machines are basically the same he did 99% of the work for me.
 
 I've only tested this on my Mac (Yosemite 10.10.2), but I can't imagine it won't work on Linux as well.
 
