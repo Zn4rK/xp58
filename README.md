@@ -15,7 +15,7 @@ You need to make sure that you have cups installed. If you are compiling on linu
 After that you should have the binary file for the filter, and you can either manually place them;
 
 The xp-58.ppd should live in ```/usr/share/cups/model/xprinter```.  
-And the filter (rastertoxp58) should on macosx live in ```/usr/libexec/cups/filter``` or on linux based systems: ```/usr/libexec/cups/filter```.
+And the filter (rastertoxp58) should on macosx live in ```/usr/libexec/cups/filter``` or on (some) linux based systems: ```/usr/lib/cups/filter```.
 
 Or you can run the corresponding installation file for your system. 
 
