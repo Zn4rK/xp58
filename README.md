@@ -22,5 +22,10 @@ Or you can run the corresponding installation file for your system.
 ```sudo sh ./install-mac```  
 ```sudo sh ./install-linux``` (not tested, but should work)
 
+### Cups
+Go to [http://localhost:631/](http://localhost:631/) and follow the instructions for activating the WebGUI. 
+
+After that you can follow the instructions the are on the original Linux Drivers.
+
 ## Notes
 I'm not great at C. I've just modified the script provided by [@klirichek](https://github.com/klirichek) and made it work on MacOSX. It probably won't work on Linux
