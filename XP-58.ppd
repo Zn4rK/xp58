@@ -86,7 +86,7 @@
 *CloseUI: *FeedDist
 
 *OpenUI *BlankSpace/Blank space at page's end: PickOne
-*DefaultBlankSpace: 1NoPrint
+*DefaultBlankSpace: 0Print
 *BlankSpace 0Print/Print: ""
 *BlankSpace 1NoPrint/Do not print: ""
 *CloseUI: *BlankSpace
