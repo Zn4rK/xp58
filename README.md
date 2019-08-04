@@ -1,3 +1,7 @@
+# Deprecated in favor of [zj-58](https://github.com/klirichek/zj-58)
+
+Please use that instead!
+
 # XP58
 
 CUPS filter for thermal printer Xprinter XP58IIH. 
